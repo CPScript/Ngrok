@@ -1,6 +1,12 @@
 #!/bin/bash
 
+
+# are you rooted?
 if [[ $(id -u) -eq 0 ]]; then
+  echo -e 'you are rooted, please wait...'
+  sleep 5
+
+  # main script
   echo "Updating and Upgrading First..."
   echo ""
   sleep 1
@@ -8,6 +14,7 @@ if [[ $(id -u) -eq 0 ]]; then
   apt install -y wget unzip
   clear
 
+  # run animation
   ./assets/file.sh &
 
   echo -e ' 
@@ -26,7 +33,8 @@ if [[ $(id -u) -eq 0 ]]; then
   echo -e '┌─[y/n] - [Please choose]'
   read -p "└─────► " choice
   if [[ $choice =~ ^[Yy]$ ]]; then
-      echo "Downloading Termux-ngrok..."
+      echo "Downloading Ngrok!"
+      echo "Please wait..."
       sleep 1
         
       case $(dpkg --print-architecture) in
@@ -42,14 +50,13 @@ if [[ $(id -u) -eq 0 ]]; then
           ;;
       esac
       
-    wget -O ngrok.zip   "https://github.com/tchelospy/NgrokTest/raw/master/ngrok-stable-linux-${architectureURL}.zip"
+      wget -O ngrok.zip "https://github.com/tchelospy/NgrokTest/raw/master/ngrok-stable-linux-${architectureURL}.zip"
       unzip ngrok.zip
       mv ngrok /data/data/com.termux/files/usr/bin/
       chmod +x /data/data/com.termux/files/usr/bin/ngrok
       rm ngrok.zip
   
       clear
-      echo "Ngrok has been installed successfully!"
       echo ""
       echo "********************************************"
       echo "*                                          *"
