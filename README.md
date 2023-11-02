@@ -1,4 +1,4 @@
-# Ngrok Termux Easy Install
+# Ngrok-Termux Easy Install
 install Ngrok easily on termux :D
 
 > how to use/install
