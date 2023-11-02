@@ -5,7 +5,7 @@ Install Ngrok easily on termux :D
 
 * First install git: `pkg install git` or try `apt install git`
 * Second clone repo: `git clone https://github.com/CPScript/Ngrok-Termux`
-* Third go to dir:   `cd Ngrok`
+* Third go to dir:   `cd Ngrok-Termux`
 * Forth root yourself: `sudo su` on termux you will need to install X11
 * Finaly run script: `bash Launch.sh `
 
