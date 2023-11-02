@@ -1,6 +1,4 @@
 # Ngrok-Termux Easy Install
-Install Ngrok easily on termux :D
-
 > how to use/install
 
 * First install git: `pkg install git` or try `apt install git`
