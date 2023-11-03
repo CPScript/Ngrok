@@ -57,21 +57,22 @@ if [[ $(id -u) -eq 0 ]]; then
       rm ngrok.zip
   
       clear
-      echo ""
       echo "********************************************"
       echo "*                                          *"
       echo "*      Ngrok Installation Completed!       *"
+      echo "*     -------------------------------      *"
+      echo "*       Use Example: ngrok http 80         *"
+      echo "*     For more help, type: ngrok help      *"
       echo "*                                          *"
       echo "********************************************"
-      echo ""
-      echo "Command Example: ngrok http 80"
-      echo "For more help, type: ngrok help"
   else
       clear
       echo "Ngrok installation aborted."
-      echo ""
+      sleep 10
+      clear
   fi
 
 else
-    echo "you are not root, please root yourself."
+    echo "You're not rooted, please root yourself."
+    echo "How to root yourself: sudo su <password might be required>"
 fi
