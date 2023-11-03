@@ -3,7 +3,7 @@
 
 # are you rooted?
 if [[ $(id -u) -eq 0 ]]; then
-  echo -e 'you are rooted, please wait...'
+  echo "You're are rooted, please wait..."
   sleep 5
 
   # main script
