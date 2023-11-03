@@ -1,4 +1,4 @@
-# Ngrok-Termux Easy Install
+# Ngrok-Termux Easy Install (this does work on any linux distro, but is rly ment for termux)
 > how to use/install
 
 * First install git: `pkg install git` or try `apt install git`
