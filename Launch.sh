@@ -24,7 +24,7 @@ if [[ $(id -u) -eq 0 ]]; then
                    ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
         ********************************************
         *               By: CPScript               *
-        *            >Ngrok For Termux<            *
+        *           >Easy Ngrok installer<         *
         *       Do you want to install Ngrok?      *
         ********************************************  
   '
