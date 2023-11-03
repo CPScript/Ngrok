@@ -1,4 +1,4 @@
-# Ngrok-Termux Easy Install (this does work on any linux distro, but is rly ment for termux)
+# Ngrok Easy Install (this does work on any linux distro, but is rly ment for termux)
 > how to use/install
 
 * (default) First install git: (linux)`pkg install git` (termux)`apt install git` or (kali distro)`sudo install git`
