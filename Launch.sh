@@ -61,7 +61,7 @@ if [[ $(id -u) -eq 0 ]]; then
       echo "*                                          *"
       echo "*      Ngrok Installation Completed!       *"
       echo "*     -------------------------------      *"
-      echo "*       Use Example: ngrok http 80         *"
+      echo "*       Use Example: ngrok http 8080         *"
       echo "*     For more help, type: ngrok help      *"
       echo "*                                          *"
       echo "********************************************"
