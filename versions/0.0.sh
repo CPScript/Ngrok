@@ -1,14 +1,8 @@
 #!/bin/bash
 echo -e ' 
-                   
-                  ░░░░░░███████]▄▄▄▄▄▄▄▄▃          
-                   ▂▄▅█████████▅▄▃▂
-                  |███████████████████].
-                  ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
         ********************************************
-        *               By: CPScript               *
-        *           >Easy Ngrok installer<         *
-        *       Do you want to install Ngrok?      *
+        *       >Easy Ngrok installer V0.0<        *
+        *      Do you want to install Ngrok?       *
         ********************************************  
   '
   echo ""
